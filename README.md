@@ -29,26 +29,6 @@ Un sistema completo para la gestión universitaria con autenticación JWT, roles
 | Lombok            | Reducción de código boilerplate        |
 | Maven             | Gestión de dependencias                |
 
-## 📂 Estructura del Proyecto
-
-src/
-├── main/
-│ ├── java/
-│ │ └── com/
-│ │ └── universidad/
-│ │ ├── config/ # Configuraciones
-│ │ ├── controller/ # Controladores REST
-│ │ ├── dto/ # Objetos de transferencia
-│ │ ├── exception/ # Manejo de excepciones
-│ │ ├── model/ # Entidades JPA
-│ │ ├── repository/ # Repositorios Spring Data
-│ │ ├── security/ # Configuración de seguridad
-│ │ ├── service/ # Lógica de negocio
-│ │ └── validation/ # Validaciones personalizadas
-│ └── resources/
-│ ├── application.properties # Configuración
-│ └── static/ # Recursos estáticos (si aplica)
-
 
 ## 🔐 Roles y Permisos
 
